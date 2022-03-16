@@ -19,7 +19,7 @@ class outputInt (abc.ABC):
 
 class logicInt(abc.ABC):
     @abc.abstractmethod
-    def applyInput(input):
+    def show_board(self):
         pass
     @abc.abstractmethod
     def inputIsValid(boolean):
